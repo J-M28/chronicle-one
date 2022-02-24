@@ -1,0 +1,26 @@
+# Chronicle One - Programming Curricula Portfolio
+
+## Description
+---
+A website that documents my progression through P1XT's programming curricula. I am documenting / demonstrating the following skills upon completion of __"tier x"__:
+
+* ProcessingJS library for drawing and animation in Javascript
+* Creating, stylizing, and manipulating webpages via HTML, CSS, and Javascript (DOM)
+* Use of SQL to create and manipulate relational databases
+
+## What did I learn
+---
+* Writing a descriptive and informational README file to aid in project documentation and maintainability
+* Use of Git repositories to track and manage changes to software files
+
+
+## How to use
+---
+TBA
+## Credits
+---
+__Lead Developer:__ J-M28 
+
+## License
+---
+TBA 
