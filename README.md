@@ -13,7 +13,8 @@ A website that documents my progression through P1XT's programming curricula. I 
 
 * Writing a descriptive and informational README file to aid in project documentation and maintainability
 * Use of Git repositories to track and manage changes to software files
-* Writing a mock functional design specification to ensure clarity and project focus with "client" 
+* Writing a mock functional design specification to ensure clarity and project focus with "client"
+* HTML / Character entities to show reserved characters (such as the < or > symbol)  
 
 ## How to use
 
