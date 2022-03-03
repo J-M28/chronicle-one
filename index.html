@@ -4,6 +4,7 @@
     <meta name = "description" content = "A portfolio website to showcase what is learned in P1XT's programming curricula (Tier X)"></meta>
     <meta name = "author" content = "J-M28"></meta>
     <meta name = "keywords" content = "p1xt, P1XT, web development, portfolio"></meta>
+    <link rel = "stylesheet" href = "style.css"></link>
 </head>
 <body>
     <div id = "header">
@@ -25,28 +26,46 @@
         <section id = "slideshow">
             <!--Full width images for the slideshow that incl. a slide number and caption-->
             <section class = "slideFade">
-                <section class = "slideNumber">1/5</section>
+                <section class = "slideNumber">1/6</section>
+                <img src = "images/web-dev-start.jpg" alt = "HTML stock photo"></img>
+                <section class = "SS-caption">Caption text</section>
+
+                <section class = "slideNumber">2/6</section>
                 <img src = "images/khan-processingJS.png" alt = "Screenshot of Khan Academy's Intro To Javascript: Drawing and Animation Course"></img>
                 <section class = "SS-caption">Caption text</section>
 
-                <section class = "slideNumber">2/5</section>
+                <section class = "slideNumber">3/6</section>
                 <img src = "images/khan-introToHTML.png" alt = "Screenshot of Khan Academy's Intro to HTML/CSS: Making webpages Course"></img>
                 <section class = "SS-caption">Caption text</section>
 
-                <section class = "slideNumber">3/5</section>
+                <section class = "slideNumber">4/6</section>
                 <img src = "images/khan-SQL.png" alt = "Screenshot of Khan Academy's Intro to SQL: Querying and Managing Data Course"></img>
                 <section class = "SS-caption">caption text</section>
                 
-                <section class = "slideNumber">4/5</section>
+                <section class = "slideNumber">5/6</section>
                 <img src = "images/khan-JSGames.png" alt = "Screenshot of Khan Academy's Advanced Javascript: Games and Animation Course"></img>
+                <section class = "SS-caption">caption text</section>
+
+                <section class = "slideNumber">6/6</section>
+                <img src = "images/Khan-InteractiveWebpages.png" alt="Screenshot of Khan Academy's HTML/JSS making webpages interactive"></img>
                 <section class = "SS-caption">caption text</section>
             </section>
             <!--Next and previous buttons-->
             <!--Anchor tags are used instead of buttons -->
             <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
             <a class = "next" onclick = "plusSlides(1)">&#10095;</a>
+            <br></br>
+            <!--Slideshow dots-->
+            <!--Span is used to style an inline element-->
+            <section >
+                <span class = "slideshowDot" onClick = "currentSlide(1)"></span>
+                <span class = "slideShowDot" onClick = "currentSlide(2)"></span>
+                <span class = "slideShowDot" onClick = "currentSlide(3)"></span>
+                <span class = "slideShowDot" onClick = "currentSlide(4)"></span>
+                <span class = "slideShowDot" onClick = "currentSlide(5)"></span>
+                <span class = "slideShowDot" onClick = "currentSlide(6)"></span>
+            </section>
         </section>
-
         <section id = "content">
             <figure id = "about-img-one">
                 <figcaption>A polished portfolio website, showcasing the abilities of the developer J-M28</figcaption>
@@ -58,9 +77,7 @@
                 <figcaption>An enjoyable and memorable experience for a website that priotizes a smooth user-end experience</figcaption>
             </figure>
         </section>
-
     </div>
-
     <div id = "footer">
     </div>
 
