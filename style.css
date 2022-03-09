@@ -1,6 +1,47 @@
-*{ /*Set ALL elements specified width to include padding and border*/
+/*Set ALL elements specified width to include padding and border*/
+*{ 
     box-sizing: border-box;
 }
+
+/*HOMEPAGE*/
+/*place the title and navigation bar side-by-side*/
+#homepage-header header, #homepage-header nav{
+    display:inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:5px solid black; /*Temp statement*/
+}
+
+/*make the navigation bar side-by-side*/
+#homepage-header nav ul li{
+    display:inline-block;
+    width: 250px;
+    text-align:center;
+    border:5px solid black; /*Temp statement*/
+}
+
+#homepage-container{
+    border: 5px solid black; /*Temp statement*/
+}
+
+#homepage-container figure img{
+    display:block;
+    margin: 0 auto;
+}
+
+#homepage-container .about-img{
+    display:inline-block;
+}
+
+#homepage-container figure figcaption{
+    text-align:center;
+}
+
+
+   
+
+
+
 
 
 
