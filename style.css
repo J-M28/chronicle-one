@@ -3,38 +3,51 @@
     box-sizing: border-box;
 }
 
-/*HOMEPAGE*/
+/***HOMEPAGE***/
 /*place the title and navigation bar side-by-side*/
 #homepage-header header, #homepage-header nav{
-    display:inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    border:5px solid black; /*Temp statement*/
+    width: 50%;
+    float: left;
 }
+#homepage-header header{
+    text-align: left;
 
-/*make the navigation bar side-by-side*/
+}
+#homepage-header nav{
+    background-color: rgb(54, 57, 59);
+    text-align: right;
+    height: 50px;
+}
+#homepage-header nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+/*horizontal navigation bar*/
 #homepage-header nav ul li{
     display:inline-block;
-    width: 250px;
-    text-align:center;
-    border:5px solid black; /*Temp statement*/
+}
+#homepage-header nav ul li a{
+    display: block; /*Start on the only line in the list element and take up the whole width*/
+    color:white;
+    padding:14px 16px;
 }
 
-#homepage-container{
-    border: 5px solid black; /*Temp statement*/
+#homepage-container #landing-page-img{
+    position:relative; 
 }
 
-#homepage-container figure img{
-    display:block;
-    margin: 0 auto;
+#homepage-container #landing-page-img img{
+    width: 100%;
+    z-index:0;
+    
 }
 
-#homepage-container .about-img{
-    display:inline-block;
-}
-
-#homepage-container figure figcaption{
-    text-align:center;
+#homepage-container #landing-page-img figcaption{
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
 }
 
 
