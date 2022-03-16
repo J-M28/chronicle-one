@@ -43,7 +43,6 @@ body{
 }
 
 #homepage-container #landing-page-img{
-    border: 5px solid black;
     margin:0px;
 }
 
@@ -53,9 +52,9 @@ body{
 }
 #homepage-container #landing-page-img figcaption{
     position:relative;
-    top:-650px;
+    top:-80vh;
     color:white;
-    font-size:100px;
+    font-size:5vw;
 }
 #homepage-container .about-img{
     display:inline-block;
