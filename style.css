@@ -4,6 +4,10 @@
 }
 
 /***HOMEPAGE***/
+body{
+    margin:0px;
+}
+
 /*place the title and navigation bar side-by-side*/
 #homepage-header header, #homepage-header nav{
     width: 50%;
@@ -33,21 +37,29 @@
     padding:14px 16px;
 }
 
+#homepage-container{
+    clear:left;
+    text-align:center;
+}
+
 #homepage-container #landing-page-img{
-    position:relative; 
+    border: 5px solid black;
+    margin:0px;
 }
 
 #homepage-container #landing-page-img img{
-    width: 100%;
-    z-index:0;
-    
+    width: 100vw;
+    height: 50vw;
 }
-
 #homepage-container #landing-page-img figcaption{
-    position:absolute;
-    bottom:0;
-    left:0;
-    z-index:1;
+    position:relative;
+    top:-650px;
+    color:white;
+    font-size:100px;
+}
+#homepage-container .about-img{
+    display:inline-block;
+    width:23vw;
 }
 
 
