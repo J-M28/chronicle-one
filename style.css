@@ -11,75 +11,76 @@
 
 /***HOMEPAGE***/
 body{
-    margin:0px;
+    margin:0em;
     background-color:rgb(41,43,44);
     font-family: 'roboto', sans-serif;
     color:white;
 }
 /*place the title and navigation bar side-by-side*/
 #homepage-header header, #homepage-header nav{
-    width:100%;
+    width:100vw;
     display:block;
 }
 #homepage-header header{
     text-align: center;
     color:white;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 3.5vh;
-    margin-top:20px;
-    margin-bottom:20px;
+    font-family:'Libre Franklin', sans-serif;
+    font-size:2rem;
+    margin-top:1em;
+    margin-bottom:1em;
 }
 #homepage-header header h1{
-    margin:0px;
+    margin:0em;
 }
 #homepage-header nav{
     background-color: rgb(54,57,59);
     text-align: center;
-    height: 60px;;
+    height:10%;
 }
 #homepage-header nav ul{
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin:0em;
+    padding:0em;
 }
 /*horizontal navigation bar*/
 #homepage-header nav ul li{
     display:inline-block;
-    font-size:30px;
+    font-size:2rem;
     text-align:center;
 }
 #homepage-header nav ul li a{
     display: block; /*Start on the only line in the list element and take up the whole width*/
     color:white;
-    padding:14px 16px;
+    padding:0.5em 0.5em;
 }
 #homepage-container{
-    clear:left;
     text-align:center;
 }
 #homepage-container figure{
-    margin:0px;
+    margin:0em;
 }
-#homepage-container #landing-page-img{
-    margin:0px;
-    height:115vh;
+#homepage-container #homepage-landing #landing-page-img{
+    margin:0em;
 }
-#homepage-container #landing-page-img img{
-    width:100vw;
-    height:auto;
+#homepage-container #homepage-landing #landing-page-img img{
+    width:100%;
+    height:5%;
     display:block;
 }
-#homepage-container #landing-page-img figcaption{
+#homepage-container #homepage-landing #landing-page-img figcaption{
     position:relative;
-    top:-70vh;
+    top:-65vh;
     color:white;
-    font-size:5vw;
+    font-size:5rem;
 }
-#homepage-container .about-img{
+#homepage-container #homepage-about{
+    background-color:rgb(54,57,59);
+}
+#homepage-container #homepage-about .about-img{
     display:inline-block;
-    width:10vw;
-    margin-left:5vw;
-    margin-right:5vw;
+    width:10%;
+    margin-left:5em;
+    margin-right:5em;
 }
 
 
