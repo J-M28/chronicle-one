@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/***HOMEPAGE***/
+/*============HOMEPAGE============*/
 body{
     margin:0em;
     background-color:rgb(41,43,44);
@@ -59,19 +59,22 @@ body{
 #homepage-container figure{
     margin:0em;
 }
-#homepage-container #homepage-landing #landing-page-img{
+#homepage-container #homepage-landing {
     margin:0em;
-}
-#homepage-container #homepage-landing #landing-page-img img{
-    width:100%;
-    height:5%;
-    display:block;
-}
-#homepage-container #homepage-landing #landing-page-img figcaption{
     position:relative;
-    top:-65vh;
-    color:white;
-    font-size:5rem;
+}
+#homepage-container #homepage-landing img{
+    width: 100vw;
+    max-height:80vh;
+    position: relative;
+}
+#homepage-container #homepage-landing p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5rem;
+    margin:0em;
 }
 #homepage-container #homepage-about{
     background-color:rgb(54,57,59);
@@ -82,6 +85,8 @@ body{
     margin-left:5em;
     margin-right:5em;
 }
+
+/*=========DEMOS==========*/
 
 
    
