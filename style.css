@@ -4,24 +4,22 @@
     font-family: 'Roboto', sans-serif;
 */
 
+/*======GLOBAL SITE CSS=========*/
 /*Set ALL elements specified width to include padding and border*/
 *{ 
     box-sizing: border-box;
 }
-
-/*============HOMEPAGE============*/
 body{
     margin:0em;
     background-color:rgb(41,43,44);
     font-family: 'roboto', sans-serif;
     color:white;
 }
-/*place the title and navigation bar side-by-side*/
-#homepage-header header, #homepage-header nav{
+.navigation-header header, #navigation-header nav{
     width:100vw;
     display:block;
 }
-#homepage-header header{
+.navigation-header header{
     text-align: center;
     color:white;
     font-family:'Libre Franklin', sans-serif;
@@ -29,30 +27,31 @@ body{
     margin-top:1em;
     margin-bottom:1em;
 }
-#homepage-header header h1{
+.navigation-header header h1{
     margin:0em;
 }
-#homepage-header nav{
+.navigation-header nav{
     background-color: rgb(54,57,59);
     text-align: center;
     height:10%;
 }
-#homepage-header nav ul{
+.navigation-header nav ul{
     list-style-type: none;
     margin:0em;
     padding:0em;
 }
 /*horizontal navigation bar*/
-#homepage-header nav ul li{
+.navigation-header nav ul li{
     display:inline-block;
     font-size:2rem;
     text-align:center;
 }
-#homepage-header nav ul li a{
+.navigation-header nav ul li a{
     display: block; /*Start on the only line in the list element and take up the whole width*/
     color:white;
     padding:0.5em 0.5em;
 }
+/*============HOMEPAGE============*/
 #homepage-container{
     text-align:center;
 }
@@ -85,7 +84,6 @@ body{
     margin-left:5em;
     margin-right:5em;
 }
-
 /*=========DEMOS==========*/
 
 
