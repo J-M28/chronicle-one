@@ -16,6 +16,7 @@ A website that documents my progression through P1XT's programming curricula. I 
 * Writing a mock functional design specification to ensure clarity and project focus with "client"
 * HTML / Character entities to show reserved characters (such as the < or > symbol)  
 * Apply GIMP to edit images
+* Use of Google Fonts to modernize and update design
 
 ## How to use
 
