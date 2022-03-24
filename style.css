@@ -51,6 +51,12 @@ body{
     color:white;
     padding:0.5em 0.5em;
 }
+.navigation-header nav ul li a:hover{
+    background-color:rgb(105,103,88);
+}
+.navigation-header nav ul li .active{
+    background-color:rgb(197,188,142);
+}
 /*============HOMEPAGE============*/
 #homepage-container{
     text-align:center;
