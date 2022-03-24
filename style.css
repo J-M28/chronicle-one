@@ -93,6 +93,9 @@ body{
 #homepage-container #homepage-about .about-img img{
     height:10em;
 }
+#homepage-container #homepage-about .about-img figcaption{
+    width:30em;
+}
 /*=========DEMOS==========*/
 
 
