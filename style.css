@@ -72,7 +72,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4.5rem;
+    font-size: 3.5em;
     margin:0em;
 }
 #homepage-container #homepage-about{
