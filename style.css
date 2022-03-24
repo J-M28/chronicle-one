@@ -8,6 +8,7 @@
 /*Set ALL elements specified width to include padding and border*/
 *{ 
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 body{
     margin:0em;
@@ -94,7 +95,7 @@ body{
     height:10em;
 }
 #homepage-container #homepage-about .about-img figcaption{
-    width:30em;
+    text-align:center;
 }
 /*=========DEMOS==========*/
 
