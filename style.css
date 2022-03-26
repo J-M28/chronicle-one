@@ -71,7 +71,7 @@ body{
 }
 .homepage-container .homepage-landing img{
     width: 100%;
-    max-height:80vh;
+    height:50em;
     position: relative;
 }
 .homepage-container .homepage-landing p{
@@ -113,10 +113,6 @@ body{
 .homepage-container .foundation figcaption{
     text-align:right;
 }
-
-
-
-
 /*=========DEMOS==========*/
 /*=========CREDITS==========*/
 .credits-container .credit-profile{
