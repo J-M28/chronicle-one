@@ -59,22 +59,22 @@ body{
     background-color:rgb(197,188,142);
 }
 /*============HOMEPAGE============*/
-#homepage-container{
+.homepage-container{
     text-align:center;
 }
-#homepage-container figure{
+.homepage-container figure{
     margin:0em;
 }
-#homepage-container #homepage-landing {
+.homepage-container .homepage-landing {
     margin:0em;
     position:relative;
 }
-#homepage-container #homepage-landing img{
+.homepage-container .homepage-landing img{
     width: 100%;
     max-height:80vh;
     position: relative;
 }
-#homepage-container #homepage-landing p{
+.homepage-container .homepage-landing p{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,22 +82,41 @@ body{
     font-size: 3.5em;
     margin:0em;
 }
-#homepage-container #homepage-about{
-    background-color:rgb(54,57,59);
-    display:flex;
-    justify-content:center;
+.homepage-container .about-img{
+    width:100%; 
+    display:flex; 
+    background-color: rgb(54,57,59);
+    margin-bottom:10em;
+}
+.homepage-container .about-img img{
+    height:15em;
+}
+.homepage-container .about-img figcaption{
+    font-size:1.40rem;
+}
+.homepage-container .showcase, .user-experience{
     align-items:center;
 }
-#homepage-container #homepage-about .about-img{
-    width:100%;   
+.homepage-container .foundation{
+    align-items:center;
+    flex-direction:row-reverse;
 }
-#homepage-container #homepage-about .about-img img{
-    height:10em;
+.homepage-container .showcase img, .user-experience img{
+    margin-left:8%;
 }
-#homepage-container #homepage-about .about-img figcaption{
-    width:100%;
-    text-align:center;
+.homepage-container .foundation img{
+    margin-right:8%;
 }
+.homepage-container .showcase figcaption, .user-experience figcaption{
+    text-align:left;
+}
+.homepage-container .foundation figcaption{
+    text-align:right;
+}
+
+
+
+
 /*=========DEMOS==========*/
 /*=========CREDITS==========*/
 .credits-container .credit-profile{
