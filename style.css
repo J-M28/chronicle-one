@@ -125,22 +125,22 @@ body{
 .courses-container .course-entry1{
     grid-area:entry1;
 }
-.credits-container .course-entry2{
+.courses-container .course-entry2{
     grid-area:entry2;
 }
-.credits-container .course-entry3{
+.courses-container .course-entry3{
     grid-area:entry3;
 }
-.credits-container .course-entry4{
+.courses-container .course-entry4{
     grid-area:entry4;
 }
-.credits-container .course-entry5{
+.courses-container .course-entry5{
     grid-area:entry5;
 }
-.credits-container .course-entry6{
+.courses-container .course-entry6{
     grid-area:entry6;
 }
-.credits-container .coures-entry7{
+.courses-container .coures-entry7{
     grid-area:entry7;
 }
 .courses-container .course-entry1 img, .course-entry2 img, .course-entry3 img, .course-entry4 img, .course-entry5 img, .course-entry6 img, .course-entry7 img{
