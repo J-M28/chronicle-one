@@ -113,6 +113,19 @@ body{
 .homepage-container .foundation figcaption{
     text-align:right;
 }
+/*CSS Styling for animated scroll: 
+https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671*/
+
+/*Initial opacity and transition for elements with scroll animation*/
+.js-scroll{
+    opacity:0;
+    transition: opacity 500ms;
+}
+/*Elements will be animated when a .scrolled class is added*/
+.js-scroll.scrolled{
+    opacity:1;
+}
+
 /*=========DEMOS==========*/
 /*=========COURSES==========*/
 .courses-container{
