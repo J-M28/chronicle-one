@@ -17,6 +17,8 @@ A website that documents my progression through P1XT's programming curricula. I 
 * HTML / Character entities to show reserved characters (such as the < or > symbol)  
 * Apply GIMP to edit images
 * Use of Google Fonts to modernize and update design
+* CSS transitions for animations
+* Variable scope in Javascript (Global & Local: function vs. block)
 
 ## How to use
 
