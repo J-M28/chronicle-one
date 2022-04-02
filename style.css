@@ -123,8 +123,12 @@ body{
         "entry7 entryNull entryNull";
     text-align:center;
 }
-.courses-container .course-caption{
-    background-color: rgb(54,57,59);
+.courses-container a:link, .courses-container a:visited{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+.courses-container a:hover .course-caption{
+    background-color:rgb(105,103,88);
 }
 .courses-container .course-entry1{
     grid-area:entry1;
@@ -146,6 +150,9 @@ body{
 }
 .courses-container .coures-entry7{
     grid-area:entry7;
+}
+.courses-container .course-caption{
+    background-color: rgb(54,57,59);
 }
 .courses-container .course-entry1 img, .course-entry2 img, .course-entry3 img, .course-entry4 img, .course-entry5 img, .course-entry6 img, .course-entry7 img{
     width:100%;
