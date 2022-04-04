@@ -118,12 +118,13 @@ https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-
 
 /*Initial opacity and transition for elements with scroll animation*/
 .js-scroll{
-    opacity:0;
     transition: opacity 500ms;
 }
-/*Elements will be animated when a .scrolled class is added*/
+/*Elements will be animated when a .scrolled class is added
+NOTE: in JS inline CSS is applied, the !important keyword is used
+to override the inline CSS so the transition animation can take effect*/
 .js-scroll.scrolled{
-    opacity:1;
+    opacity:1 !important; 
 }
 
 /*=========DEMOS==========*/
