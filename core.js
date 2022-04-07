@@ -54,7 +54,36 @@ const handleScroll = () => {
     })
 }
 
+/**
+ * Add a "Throttle function" that limits the number of times the 
+ * call-back function is called, this is to improve the speed of webpage loading
+ * 
+ * The throttle function works as follows
+ * 1. Initilize the throttleTimer as false 
+ * 2. Define a function that will only be called if the throttleTimer is false.
+ *  This is the case WHEN the throttle function is either initially called OR 
+ *  whenever a certain time limit has passed. The throttle function is responsible 
+ *  for calling the call-back method so only when a certain time-limit has passed
+ *  will it call the call-back method
+ *  2.1. Checks if the throttle time is true (that means the time limit has not passed), return
+ *  2.2. Call the setTimeout function, supply for it an annoymous function that calls the call-back and resets
+ *      the throttle timeout.
+ */
+let throttleTimer = false;
+const throttle = (callback, time) =>{
+    if(throttleTimer){
+        return;
+    }
+
+    throttleTimer = true; 
+
+    setTimeout(() =>{
+        callback(); 
+        throttleTimer = false; 
+    }, time)
+}
+
 //Step 6. Add the event listener to the window object for each scroll
 window.addEventListener("scroll", () =>{
-    handleScroll();
+    throttle(handleScroll(), 250);
 });
