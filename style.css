@@ -79,39 +79,29 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3.5em;
+    font-size: 5em;
     margin:0em;
 }
-.homepage-container .about-img{
+.homepage-container .testimonial{
     width:100%; 
     display:flex; 
+    flex-flow:column;
     background-color: rgb(54,57,59);
-    margin-bottom:10em;
 }
-.homepage-container .about-img img{
-    height:15em;
-}
-.homepage-container .about-img figcaption{
-    font-size:1.40rem;
-}
-.homepage-container .showcase, .user-experience{
+.homepage-container .testimonial figure{
+    display:flex;
+    flex-flow:row;
     align-items:center;
 }
-.homepage-container .foundation{
-    align-items:center;
-    flex-direction:row-reverse;
+.homepage-container .testimonial figure img{
+    height:17em;
+    width:40%;
+    
+    
 }
-.homepage-container .showcase img, .user-experience img{
-    margin-left:8%;
-}
-.homepage-container .foundation img{
-    margin-right:8%;
-}
-.homepage-container .showcase figcaption, .user-experience figcaption{
-    text-align:left;
-}
-.homepage-container .foundation figcaption{
-    text-align:right;
+.homepage-container .testimonial figure figcaption{
+    font-size:1.7rem;
+    width:40%;
 }
 /*CSS Styling for animated scroll: 
 https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671*/
@@ -120,11 +110,22 @@ https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-
 .js-scroll{
     transition: opacity 500ms;
 }
-/*Elements will be animated when a .scrolled class is added
+/* Elements will be animated when a .scrolled class is added
 NOTE: in JS inline CSS is applied, the !important keyword is used
 to override the inline CSS so the transition animation can take effect*/
 .js-scroll.scrolled{
     opacity:1 !important; 
+}
+.js-scroll.scrolled.fade-left{
+    animation: left-slide 1s ease-in-out both;
+}
+@keyframes left-slide{
+    0%{
+        transform:translateX(-100px);
+    }
+    100%{
+        transform:translateX(0);
+    }
 }
 
 /*=========DEMOS==========*/
