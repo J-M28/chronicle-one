@@ -186,12 +186,14 @@ to override the inline CSS so the transition animation can take effect*/
 .credits-container .credit-profile img{
     padding:0.5em;
     background-color:rgb(238,230,171);
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 .credits-container .credit-profile .profile-caption{
     text-align:center;
     background-color:rgb(54,57,59);
     padding:1em 1.75em 1em 1.75em;
     margin-top:1em;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 .credits-container .credit-profile .credit-title{
     text-align:center;
