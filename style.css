@@ -8,7 +8,6 @@
 /*Set ALL elements specified width to include padding and border*/
 *{ 
     box-sizing: border-box;
-    overflow-x:hidden;
 }
 body{
     margin:0em;
@@ -87,6 +86,8 @@ body{
     display:flex; 
     flex-flow:column;
     background-color: rgb(54,57,59);
+    margin-bottom:5em;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
 .homepage-container .testimonial figure{
     display:flex;
@@ -96,8 +97,6 @@ body{
 .homepage-container .testimonial figure img{
     height:17em;
     width:40%;
-    
-    
 }
 .homepage-container .testimonial figure figcaption{
     font-size:1.7rem;
@@ -127,7 +126,6 @@ to override the inline CSS so the transition animation can take effect*/
         transform:translateX(0);
     }
 }
-
 /*=========DEMOS==========*/
 /*=========COURSES==========*/
 .courses-container{
@@ -213,14 +211,3 @@ to override the inline CSS so the transition animation can take effect*/
 .credits-container .credit-profile .github-profile a:hover, .github-profile a:active{
     color:rgb(197,188,142);
 }
-
-
-   
-
-
-
-
-
-
-
-
