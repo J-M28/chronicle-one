@@ -166,10 +166,12 @@ to override the inline CSS so the transition animation can take effect*/
 }
 .courses-container .course-caption{
     background-color: rgb(54,57,59);
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 .courses-container .course-entry1 img, .course-entry2 img, .course-entry3 img, .course-entry4 img, .course-entry5 img, .course-entry6 img, .course-entry7 img{
     width:100%;
     height:14em;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
 }
 /*=========CREDITS==========*/
 .credits-container .credit-profile{
