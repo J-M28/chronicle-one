@@ -127,6 +127,21 @@ to override the inline CSS so the transition animation can take effect*/
     }
 }
 /*=========DEMOS==========*/
+.navigation-container .demo{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.navigation-container .demo img{
+    width:25%;
+    height:20rem;
+}
+.navigation-container .demo .demo-description{
+    width:70%;
+    background-color:rgb(54,57,59);
+    padding: 3em;
+}
 /*=========COURSES==========*/
 .courses-container{
     display:grid;
