@@ -82,7 +82,6 @@ const throttle = (callback, time) =>{
         throttleTimer = false; 
     }, time)
 }
-
 //Step 6. Add the event listener to the window object for each scroll
 window.addEventListener("scroll", () =>{
     throttle(handleScroll(), 250);
