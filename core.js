@@ -2,6 +2,12 @@
 "use strict"
 
 /**
+ * ============================
+ *  H O M E P A G E
+ * ============================
+ */
+
+/**
  * The JS code is credited to: Jemima Abu's "How to Animate on Scroll with Vanilla Javascript" blogpost
  * https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
  */
@@ -86,3 +92,35 @@ const throttle = (callback, time) =>{
 window.addEventListener("scroll", () =>{
     throttle(handleScroll(), 250);
 });
+
+/**
+ * ============================
+ *  D E M O S
+ * ============================
+ */
+/**
+ * This code template is credited to Khan Academy's post "Using ProcessingJS outside of Khan Academy"
+ */
+
+//Create the sketch function that manipulates the given processing instance to create the drawing
+var sketchProc = (processingInstance) =>{
+    processingInstance.size(400,400);
+    processingInstance.frameRate(30);
+    
+    //Demo processingJS here 
+    processingInstance.fill(255,255,0);
+    processingInstance.ellipse(200,200,200,200);
+    processingInstance.noFill();
+    processingInstance.stroke(0,0,0);
+    processingInstance.strokeWeight(2);
+    processingInstance.arc(200,200,150,100,0,PI);
+    processingInstance.fill(0,0,0);
+    processingInstance.ellipse(250,200,10,10);
+    processingInstance.ellipse(153,200,10,10);
+};
+
+//Get the canvas using the DOM 
+var canvas = document.getElementById("mycanvas");
+
+//Instantiate a new processing instance (NOTE: syntactic sugar is applied)
+var processingInstance = new Processing(canvas, sketchProc);
