@@ -9,12 +9,15 @@
     </head>
     <body>
         <div class="processjs-container">
-            <!--draws canvas on webpage-->
-            <p> <!--wrap in paragraph tags to better style the element-->
-                <canvas id="mycanvas"></canvas>
-            </p>
+            <!--draws canvas on webpage, a box that we can draw graphics in-->
+            <canvas id="mycanvas"></canvas>
+ 
             <!--Load all script files at the end to improve loading time-->
-            <script src="lib/processing.js"></script>
+            <!--ProcessingJS is a Javascript "library" (i.e. tool) that is written in JS 
+                and converts processing langugage into JS since processingJS is written in 
+                Javascript you can invoke processing functions as javascript methods of a 
+                processing instance-->
+            <script src="lib/processing.min.js"></script>
             <script src="core.js"></script>
         </div>
     </body>
