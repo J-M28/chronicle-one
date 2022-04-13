@@ -144,6 +144,15 @@ to override the inline CSS so the transition animation can take effect*/
     background-color:rgb(54,57,59);
     padding: 3em;
 }
+/*ProcessJS demo page*/
+.processjs-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.processjs-container p{
+    text-align:center;
+}
 /*=========COURSES==========*/
 .courses-container{
     display:grid;
