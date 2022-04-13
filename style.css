@@ -150,9 +150,6 @@ to override the inline CSS so the transition animation can take effect*/
     align-items:center;
     justify-content:center;
 }
-.processjs-container p{
-    text-align:center;
-}
 /*=========COURSES==========*/
 .courses-container{
     display:grid;
