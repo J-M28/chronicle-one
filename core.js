@@ -100,23 +100,62 @@ window.addEventListener("scroll", () =>{
  */
 /**
  * This code template is credited to Khan Academy's post "Using ProcessingJS outside of Khan Academy"
+ * https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations/advanced-development-tools/a/using-processingjs-outside-khan-academy
+ * http://www.danfletcherblog.ca/2019/01/write-processingjs-outside-khan-academy/ (helpful blog)
  */
 
 //Create the sketch function that manipulates the given processing instance to create the drawing
 var sketchProc = (processingInstance) =>{
-    processingInstance.size(400,400);
-    processingInstance.frameRate(30);
+    processingInstance.size(1000,600);
+    processingInstance.frameRate(60);
     
-    //Demo processingJS here 
-    processingInstance.fill(255,255,0);
-    processingInstance.ellipse(200,200,200,200);
-    processingInstance.noFill();
-    processingInstance.stroke(0,0,0);
-    processingInstance.strokeWeight(2);
-    processingInstance.arc(200,200,150,100,0,PI);
-    processingInstance.fill(0,0,0);
-    processingInstance.ellipse(250,200,10,10);
-    processingInstance.ellipse(153,200,10,10);
+    processingInstance.background(59, 212, 255); //draw backdrop
+    processingInstance.fill(0,0,0); 
+    processingInstance.rect(0,400,1000,200); //draw road 
+    processingInstance.fill(255,255,255); 
+    processingInstance.rect(0,500,75,20); //draw road markers (white dashes)
+    processingInstance.rect(100,500,75,20);
+    processingInstance.rect(200,500,75,20);
+    processingInstance.rect(300,500,75,20);
+    processingInstance.rect(400,500,75,20);
+    processingInstance.rect(500,500,75,20);
+    processingInstance.rect(600,500,75,20);
+    processingInstance.rect(700,500,75,20);
+    processingInstance.rect(800,500,75,20);
+    processingInstance.rect(900,500,75,20);
+    processingInstance.fill(6,143,33);
+    processingInstance.rect(0,250,1000,150); //draw grass 
+    processingInstance.fill(222,164,18);
+    processingInstance.ellipse(500,120,200,200); // draw sun
+    //FIXME: add cars images 
+    processingInstance.fill(245, 78, 66); //draw cars, red car 
+    processingInstance.rect(50,400,50,50);
+    processingInstance.rect(26,430,100,30);
+    processingInstance.fill(156,153,152);
+    processingInstance.ellipse(50,470,35,35); 
+    processingInstance.ellipse(100,470,35,35);
+    processingInstance.fill(8, 130, 212);  //blue car 
+    processingInstance.rect(600,400,50,50);
+    processingInstance.rect(575,430,100,30);
+    processingInstance.fill(156,153,152);
+    processingInstance.ellipse(600,470,35,35); 
+    processingInstance.ellipse(650,470,35,35);
+    processingInstance.fill(219,194,26);  //yellow car
+    processingInstance.rect(800,500,50,50);
+    processingInstance.rect(775,530,100,30);
+    processingInstance.fill(156,153,152);
+    processingInstance.ellipse(800,570,35,35); 
+    processingInstance.ellipse(850,570,35,35);
+    processingInstance.fill(25,153,14);  //green car
+    processingInstance.rect(300,500,50,50);
+    processingInstance.rect(275,530,100,30);
+    processingInstance.fill(156,153,152);
+    processingInstance.ellipse(300,570,35,35); 
+    processingInstance.ellipse(355,570,35,35);
+
+
+
+
 };
 
 //Get the canvas using the DOM 
@@ -124,3 +163,4 @@ var canvas = document.getElementById("mycanvas");
 
 //Instantiate a new processing instance (NOTE: syntactic sugar is applied)
 var processingInstance = new Processing(canvas, sketchProc);
+
