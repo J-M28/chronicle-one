@@ -127,7 +127,6 @@ var sketchProc = (processingInstance) =>{
     processingInstance.rect(0,250,1000,150); //draw grass 
     processingInstance.fill(222,164,18);
     processingInstance.ellipse(500,120,200,200); // draw sun
-    //FIXME: add cars images 
     processingInstance.fill(245, 78, 66); //draw cars, red car 
     processingInstance.rect(50,400,50,50);
     processingInstance.rect(26,430,100,30);
@@ -152,10 +151,56 @@ var sketchProc = (processingInstance) =>{
     processingInstance.fill(156,153,152);
     processingInstance.ellipse(300,570,35,35); 
     processingInstance.ellipse(355,570,35,35);
+    processingInstance.fill(224, 232, 149);//draw home on the left
+    processingInstance.rect(100,100,200,200); 
+    processingInstance.fill(196, 12, 8);
+    processingInstance.triangle(200,5,325,100,80,100); //draw roofing
+    processingInstance.fill(97,54,5);
+    processingInstance.rect(175,200,50,100); //draw door
+    processingInstance.fill(218, 224, 22);
+    processingInstance.ellipse(210,250,10,10); //draw knob
+    processingInstance.fill(168,168,158);
+    processingInstance.rect(175,300,50,100);
+    processingInstance.fill(224, 232, 149);//draw home on the right
+    processingInstance.rect(720,100,200,200); 
+    processingInstance.fill(196, 12, 8);
+    processingInstance.triangle(825,5,950,100,700,100); //draw roofing
+    processingInstance.fill(97,54,5);
+    processingInstance.rect(795,200,50,100); //draw door
+    processingInstance.fill(218, 224, 22);
+    processingInstance.ellipse(830,250,10,10); //draw knob
+    processingInstance.fill(168,168,158);
+    processingInstance.rect(795,300,50,100);
+    processingInstance.fill(97,54,5); //draw fencing 
+    processingInstance.rect(10,375,150,10); //first set
+    processingInstance.rect(10,350,150,10);
+    processingInstance.rect(10,340,30,60);
+    processingInstance.rect(50,340,30,60);
+    processingInstance.rect(90,340,30,60);
+    processingInstance.rect(130,340,30,60);
+    processingInstance.rect(240,375,500,10);//second set
+    processingInstance.rect(240,350,500,10);
+    processingInstance.rect(240,340,30,60);
+    processingInstance.rect(280,340,30,60);
+    processingInstance.rect(320,340,30,60);
+    processingInstance.rect(360,340,30,60);
+    processingInstance.rect(400,340,30,60);
+    processingInstance.rect(440,340,30,60);
+    processingInstance.rect(480,340,30,60);
+    processingInstance.rect(520,340,30,60);
+    processingInstance.rect(560,340,30,60);
+    processingInstance.rect(600,340,30,60);
+    processingInstance.rect(640,340,30,60);
+    processingInstance.rect(680,340,30,60);
+    processingInstance.rect(720,340,30,60);
+    processingInstance.rect(875,375,100,10);//third set
+    processingInstance.rect(875,350,100,10);
+    processingInstance.rect(875,340,30,60);
+    processingInstance.rect(915,340,30,60);
+    processingInstance.rect(955,340,30,60);
+    
 
-
-
-
+    
 };
 
 //Get the canvas using the DOM 
@@ -163,4 +208,3 @@ var canvas = document.getElementById("mycanvas");
 
 //Instantiate a new processing instance (NOTE: syntactic sugar is applied)
 var processingInstance = new Processing(canvas, sketchProc);
-
