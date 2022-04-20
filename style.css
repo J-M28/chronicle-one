@@ -143,12 +143,20 @@ to override the inline CSS so the transition animation can take effect*/
     width:70%;
     background-color:rgb(54,57,59);
     padding: 3em;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+.navigation-container .demo a:link, a:visited{
+    text-decoration:none;
+    color:white;
+}
+.navigation-container .demo a:hover{
+    background-color:rgb(105,103,88);
 }
 /*ProcessJS demo page*/
 .processjs-container {
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:center;   
 }
 /*=========COURSES==========*/
 .courses-container{
