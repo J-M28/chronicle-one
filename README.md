@@ -19,6 +19,7 @@ A website that documents my progression learning programming. I am documenting /
 * CSS transitions and keyframes for animations
 * Variable scope in Javascript (Global & Local: function vs. block)
 * Importing and using external Javascript libraries
+* In future, the use of different branches to better organize commit history 
 
 ## How to use
 
@@ -31,5 +32,5 @@ __Lead Developer:__ J-M28
 
 ## License
 
-TBA 
+No License
 
