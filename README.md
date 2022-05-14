@@ -6,7 +6,7 @@ A website that documents my progression learning programming. I am documenting /
 
 * ProcessingJS library for drawing and animation in Javascript
 * Creating, stylizing, and manipulating webpages via HTML, CSS, and Javascript (DOM)
-* Use of SQL to create and manipulate relational databases
+
 
 ## What did I learn
 
