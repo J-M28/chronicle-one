@@ -23,7 +23,8 @@ A website that documents my progression learning programming. I am documenting /
 
 ## How to use
 
-Navigate through the website as you would any other website, clicking on corresponding menu options should you want corresponding information
+https://chronicle-one.netlify.app  
+Simply click on the link to access the live site!
 
 
 ## Credits
